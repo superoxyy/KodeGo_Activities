@@ -1,0 +1,47 @@
+.parent {
+    display: flex;
+    flex-grow: 1;
+  }
+
+.header {
+    flex-grow: 2;
+    background-color: burlywood;
+    border: 1px solid gray;
+    height: 250px;
+}
+
+.container {
+    flex-grow: 1;
+    flex-basis: 50%;
+    background-color: burlywood;
+}
+
+.menu {
+    flex-grow: 1;
+    background-color: blanchedalmond;
+    border: 1px solid gray;
+    height: 502px
+}
+
+.aside {
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.article-parent {
+    display: flex;
+  }
+
+.article {
+    flex-grow: 2;
+    background-color: khaki;
+    border: 1px solid gray;
+    height: 250px;
+}
+
+.footer-content {
+    flex-grow: 1;
+    background-color: darkcyan;
+    border: 1px solid gray;
+    height: 50px;
+}
